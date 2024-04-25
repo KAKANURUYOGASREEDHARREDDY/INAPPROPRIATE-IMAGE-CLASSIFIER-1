@@ -65,3 +65,7 @@ classifier.classify(['path_to_image_1', 'path_to_image_2'], batch_size=BATCH_SIZ
 
 
 - A part of the auto-labelled data (Images are from the classifier dataset above) used to train the base Detector is available at https://github.com/notAI-tech/NudeNet/releases/download/v0/DETECTOR_AUTO_GENERATED_DATA.zip
+
+- TEAM MEMBERS :
+- 1)YOGA SREEDHAR REDDY
+- 2)TARUNI
