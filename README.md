@@ -37,7 +37,6 @@ python fastDeploy-file_client.py --file PATH_TO_YOUR_IMAGE
 python fastDeploy-file_client.py --dir PATH_TO_FOLDER --ext jpg
 ```
 
-**Note: golang example https://github.com/notAI-tech/NudeNet/issues/63#issuecomment-729555360**, thanks to [Preetham Kamidi](https://github.com/preetham)
 
 
 # As Python module
@@ -64,8 +63,5 @@ classifier.classify(['path_to_image_1', 'path_to_image_2'], batch_size=BATCH_SIZ
 #          'path_to_image_2': {'safe': PROBABILITY, 'unsafe': PROBABILITY}}
 ```
 
-# Notes:
-- The current version of NudeDetector is trained on 160,000 entirely auto-labelled (using classification heat maps and 
-  various other hybrid techniques) images. 
-- The entire data for the classifier is available at https://archive.org/details/NudeNet_classifier_dataset_v1
+
 - A part of the auto-labelled data (Images are from the classifier dataset above) used to train the base Detector is available at https://github.com/notAI-tech/NudeNet/releases/download/v0/DETECTOR_AUTO_GENERATED_DATA.zip
